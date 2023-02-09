@@ -1,0 +1,90 @@
+*{
+    font-family: 'Dosis', sans-serif;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+a {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding:3rem 2.3rem;
+
+    border-radius: 50%;
+
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+
+}
+
+
+#akce1{
+    background:#006868;
+    border: 5px solid #006868;  
+}
+
+#akce2{
+    background: orange;
+    border: 5px solid orange
+}
+
+#akce3{
+    background: green;
+    border: 5px solid green
+}
+
+#akce4{
+    background: rgb(31, 31, 199);
+    border: 5px solid rgb(31, 31, 199);
+}
+
+#akce5{
+    background: red;
+    border: 5px solid red
+}
+
+#akce1:hover, #akce1:focus {
+    background:#323232;
+    border: 5px solid #006868;
+    color: #00b3b3;
+
+
+}
+
+#akce2:hover, #akce2:focus {
+    background:#323232;
+    border: 5px solid orange;
+    color: orange;
+
+
+}
+
+#akce3:hover, #akce3:focus {
+    background:#323232;
+    border: 5px solid green;
+    color: rgb(4, 187, 4);
+
+
+}
+
+#akce4:hover, #akce4:focus {
+    background:#323232;
+    border: 5px solid rgb(31, 31, 199);
+    color: rgb(50, 50, 241);
+
+
+}
+
+#akce5:hover, #akce5:focus {
+    background:#323232;
+    border: 5px solid red;
+    color: red;
+
+
+}
